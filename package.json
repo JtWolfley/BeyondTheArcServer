@@ -1,0 +1,12 @@
+{
+  "name": "beyond-the-arc-server",
+  "version": "1.0.0",
+  "description": "Beyond The Arc server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
