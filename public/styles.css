@@ -1,0 +1,105 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #0b0b0b;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.api-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 25px;
+    text-align: center;
+}
+
+.subtitle {
+    color: #f47745;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 15px 0;
+}
+
+.description {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.api-card {
+    background: #1c1c1c;
+    border-top: 4px solid #f47745;
+    padding: 35px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.api-card h2 {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.endpoint {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #111;
+    padding: 18px;
+}
+
+.method {
+    background: #f47745;
+    color: black;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.endpoint a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+.endpoint a:hover {
+    color: #f47745;
+}
+
+.api-card p {
+    color: #aaa;
+    font-size: 14px;
+}
+
+footer {
+    margin-top: 70px;
+    color: #888;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    .api-container {
+        padding: 45px 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .api-card {
+        padding: 20px;
+    }
+
+    .endpoint a {
+        font-size: 14px;
+    }
+}
