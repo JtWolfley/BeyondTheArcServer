@@ -86,7 +86,25 @@ footer {
     font-size: 13px;
 }
 
-@media (max-width: 600px) {
+.api-card .endpoint {
+    margin-top: 20px;
+}
+
+.method.post {
+    background: #444;
+    color: white;
+}
+
+.endpoint-path {
+    color: white;
+    font-size: 18px;
+    overflow-wrap: anywhere;
+}
+
+@media only screen and (max-width: 600px) {
+    .endpoint-path {
+        font-size: 14px;
+    }
     .api-container {
         padding: 45px 15px;
     }

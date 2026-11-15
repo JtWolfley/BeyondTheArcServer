@@ -12,8 +12,8 @@
         <p class="subtitle">BEYOND THE ARC</p>
         <h1>NBA PLAYERS API</h1>
         <p class="description">
-            Explore NBA player information through the
-            Beyond The Arc API.
+            Explore NBA player information and fan-created
+            basketball profiles through the Beyond The Arc API.
         </p>
 
         <section class="api-card">
@@ -23,12 +23,23 @@
                 <span class="method">GET</span>
                 <a href="/api/players">/api/players</a>
             </div>
-
             <p>Retrieve all NBA players and their information.</p>
+
+            <div class="endpoint">
+                <span class="method">GET</span>
+                <a href="/api/fanhoopers">/api/fanhoopers</a>
+            </div>
+            <p>Retrieve all fan-created basketball players.</p>
+
+            <div class="endpoint">
+                <span class="method post">POST</span>
+                <span class="endpoint-path">/api/fanhoopers</span>
+            </div>
+            <p>Add a new fan hooper with validated player information.</p>
         </section>
 
         <footer>
-            <p>© 2026 Beyond The Arc</p>
+            <p>&copy; 2026 Beyond The Arc</p>
         </footer>
     </main>
 </body>
